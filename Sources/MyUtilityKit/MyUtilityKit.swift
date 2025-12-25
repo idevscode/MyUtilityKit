@@ -5,7 +5,9 @@ import Foundation
 
 public struct StringUtility {
     
-    public init(){}
+    public init(){
+        
+    }
     
     public func isValidEmail(_ email: String) -> Bool {
         let emailRegex = "^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,64}$"
