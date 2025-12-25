@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "MyUtilityKit",
     platforms: [
-        .iOS(.init(13))
+        .iOS(.init(13)),
+        .macOS(.init(11))
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
