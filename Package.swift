@@ -25,5 +25,6 @@ let package = Package(
             name: "MyUtilityKitTests",
             dependencies: ["MyUtilityKit"]
         ),
+
     ]
 )
